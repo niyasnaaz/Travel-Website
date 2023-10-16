@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Travel Page</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Cookie&family=Edu+QLD+Beginner:wght@500;600;700&family=Lato:ital,wght@0,400;1,300&family=Macondo&family=Merriweather:ital@0;1&family=Orbitron:wght@500&family=Pixelify+Sans&family=Roboto+Slab&family=Tilt+Neon&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Caveat:wght@500;600&family=Cookie&family=Edu+QLD+Beginner:wght@500;600;700&family=Lato:ital,wght@0,400;1,300&family=Macondo&family=Merriweather:ital@0;1&family=Orbitron:wght@500&family=Pixelify+Sans&family=Roboto+Slab&family=Tilt+Neon&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body style="background-color: black;">
+
+  <!-- Header -->
+  <!-- navbar -->
+  <section class="p-1"
+    style="background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/10/Black-And-Grey-Wallpaper-HD.png); background-repeat: no-repeat; background-size: cover; width: 100%; height: 1080px;">
+    <nav>
+      <ul type="none" style="display: flex; justify-content: space-between;">
+        <li><a href=""
+            style="font-size: 30px; text-decoration: none;color: rgb(255, 255, 255); font-family: 'Black Ops One', sans-serif;">
+            <img src="https://www.transparentpng.com/thumb/travel/it6hhW-travel-best-logo-png.png" width="150px" alt=""
+              class="">SOLO TRAVELLER</a></li>
+        <li>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2"
+              style="margin-top: 55px; width: 400px; border: 1px solid black; border-radius: 10px; font-weight: bold;"
+              type="search" placeholder="Search..." aria-label="Search">
+            <button class="btn btn-outline-warning"
+              style="margin-top: 55px; width: 150px; border-radius: 25px; font-size: 16px; font-weight: bold;"
+              type="submit">Search</button>
+          </form>
+        </li>
+        <li>
+          <form class="d-flex" role="search">
+            <button class="btn btn-outline-warning"
+              style="margin-top: 55px; margin-right: 20px; width: 150px; border-radius: 25px; font-size: 16px; font-weight: bold;"
+              type="submit"><i class="fa-regular fa-bell"></i> Subscribe</button>
+          </form>
+      </ul>
+      <ul type="none" style="display: flex; justify-content: space-evenly; text-align: center; font-weight: bold;">
+        <li class="nav-item dropdown text-light">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Planning
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown text-light">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Destinations
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown text-light">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
+        <li><a href="" style="text-decoration: none; color: white;">Videos</a></li>
+        <li><a href="" style="text-decoration: none; color: white;">Photos</a></li>
+        <li><a href="" style="text-decoration: none; color: white;">Inspiration</a></li>
+        <li><a href="" style="text-decoration: none; color: white;">Resources</a></li>
+
+        <li class="nav-item dropdown text-light">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Shop
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    </nav>
+    <p
+      style="color: rgb(140, 140, 140); font-size: 200px;margin-left: 220px; margin-top: 0px; position:absolute; font-family: 'Black Ops One', sans-serif;">
+      <em>W E L C O M E </em>
+    </p>
+    <div class="container-fluid" style="margin-left: 1050px; margin-top: 650px; position: absolute;">
+      <div class="card"
+        style="width: 500px; height: 200px; background-color: transparent; border: 2px ridge white; box-shadow: 2px 2px 2px 4px black ; margin-left: 200px;">
+        <div class="card-body" style="margin-bottom: 200px; margin-left: 200p;">
+          <p class="card-text text-light"
+            style="font-size: large; font-weight: bold; font-family: Verdana, Geneva, Tahoma, sans-serif;">I create
+            travel guides and backpacking itineraries for countries such as Thailand and New Zealand, in addition to
+            sharing photography resources and more.
+          </p>
+          <a href="#" class="btn btn-warning m-1" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Read My
+            Videos</a>
+          <a href="#" class="btn btn-dark text-warning m-1"
+            style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Watch My Blogs</a>
+        </div>
+      </div>
+    </div>
+    <img src="https://www.pngmart.com/files/22/Tom-Hardy-PNG-Photos.png"
+      style="margin-left: 650px; position: absolute; margin-top: 50px;" width="550px" height="850px" alt="">
+
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XiAqmlIEFi0?si=YKZ4BC3QVRCV_-ot"
+      style="width: 360px; height: 200px; border:  1px solid rgb(255, 255, 255); border-radius: 10px; box-shadow: 2px 2px 2px 4px black;margin-left: 1400px; margin-top: 400px;"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+
+    <div class="row" style="margin-bottom: 500px;height: 280px; margin-left: 100px;">
+      <div class="col"
+        style="font-weight: bolder; font-size: 80px; background-color: transparent; color: rgb(38, 38, 38); font-family: 'Black Ops One', sans-serif;">
+        I'M
+      </div>
+      <div class="col2"
+        style="font-weight: bolder; font-size: 100px; background-color: transparent; color: black; font-family: 'Black Ops One', sans-serif; ">
+        TOM HARDY
+      </div>
+    </div>
+
+  </section>
+
+  <section style="width: 100%; height: 320px; background-color: gray; color: rgb(255, 255, 255);">
+    <div class="row p-5">
+      <h3 class="text-center" style="font-weight: bold; color: black; font-family: 'Black Ops One', sans-serif;">Where
+        Do You Want To Go?</h3>
+      <ul type="none" style="display: flex; justify-content: space-evenly; padding: 30px;">
+        <li><img src="./img/icon-thailand.svg" width="80px" alt="Thailand">
+          <p style="font-weight: bold;" class="p-3">THAILAND</p>
+        </li>
+        <li><img src="./img/icon-iceland.svg" width="141px" alt="Thailand">
+          <p style="font-weight: bold;" class="p-3">ICELAND</p>
+        </li>
+        <li><img src="./img/icon-italy.svg" width="142px" alt="Thailand">
+          <p style="font-weight: bold;" class="p-3">ITALY</p>
+        </li>
+        <li><img src="./img/icon-central-asia.svg" width="225px" alt="Thailand">
+          <p style="font-weight: bold;" class="p-3">CENTRAL-ASIA</p>
+        </li>
+        <li><img src="./img/icon-south-america.svg" width="90px" alt="Thailand">
+          <p style="font-weight: bold;" class="p-3">SOUTH-AMERICA</p>
+        </li>
+        <li><img src="./img/icon-southeast-asia.svg" width="165px" alt="Thailand">
+          <p style="font-weight: bold;" class="p-3">SOUTHEAST-ASIA</p>
+        </li>
+        <li><img src="./img/icon-albania.svg" width="83px" alt="Thailand">
+          <p style="font-weight: bold;" class="p-3">ALBANIA</p>
+        </li>
+        <li><img src="./img/icon-europe.svg" width="88px" alt="Thailand">
+          <p style="font-weight: bold;" class="p-3">EUROPE</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section style="background-image:url(./img/Black-And-Grey-Wallpaper-HD.png); background-repeat: no-repeat; background-size: cover; width: 100%; height: 780px;"><img
+      src="./img/world-map.svg" width="1000px" style="margin-left: 500px; position: absolute;" alt="world map">
+
+    <div class="col1 mt-5"
+      style="font-weight: bolder ; font-size: 50px; margin-left: 60px; padding-top: 100px; font-family: 'Times New Roman', Times, serif;">
+      <p style="color: white;">DISCOVER THE</p>
+      <p style="color: rgb(247, 198, 0);">WORLD . . .</p>
+    </div>
+
+    <div class="" style="margin-left: 50px; position: absolute; margin-top: 30px;">
+      <div class="" style="width: 500px; background-color: transparent;">
+        <div class="card-body" style="margin-bottom: 200px;">
+          <p class="card-text"
+            style="font-size: larger; font-weight: bold; font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(222, 178, 0)">
+            We have written over 600+ travel guides and backpacking itineraries to provide all the information you need
+            to
+            help plan your dream trip around the world.
+          </p>
+          <button class="btn btn-outline-warning p-3"
+            style="margin-top: 40px; width: 250px; border-radius: 25px; font-size: 16px; font-weight: bold;"
+            type="submit">EXPLORE DESTINATIONS <i class="fa-solid fa-arrow-right"></i></button>
+
+  </section>
+
+  <section
+    style="background-image: url(./img/its-more-fun-colombia-bg-image.jpg); background-repeat: no-repeat; background-size: cover; width: 100%; height: 1760px; position: relative;">
+    <h3
+      style="color: rgb(255, 221, 0); font-size: 200px; position: absolute;font-family: 'Black Ops One', sans-serif; text-align: center; padding-top: 35px; margin-left: 300px;">
+      <em>MY STORIES</em>
+    </h3>
+
+    <iframe width="80%" height="800px" src="https://www.youtube.com/embed/p4IRa4N11O0?si=jw04Ddga4VhWI7iG"
+      style="border: 1px solid rgb(255, 255, 255); border-radius: 10px; box-shadow: 2px 2px 2px 4px black; margin-top: 200px; margin-left: 180px; position: relative;"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+
+    <div class="row mt-5 justify-content-center ms-1">
+      <div class="col">
+        <iframe width="420" height="250" src="https://www.youtube.com/embed/GRO6Q4-ub34?si=Q8Ju53rguf_RKk1z"
+          title="YouTube video player" frameborder="0"
+          style="border: 1px solid rgb(255, 255, 255); border-radius: 10px; box-shadow: 2px 2px 2px 4px rgb(46, 46, 46);"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+        </iframe>
+      </div>
+      <div class="col">
+        <iframe width="420" height="250" src="https://www.youtube.com/embed/haStmsZio4g?si=-UYpnBw5nsTAoiBP"
+          title="YouTube video player" frameborder="0"
+          style="border: 1px solid rgb(255, 255, 255); border-radius: 10px; box-shadow: 2px 2px 2px 4px rgb(46, 46, 46);"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+        </iframe>
+      </div>
+      <div class="col">
+        <iframe width="420" height="250" src="https://www.youtube.com/embed/O61x3vre_fA?si=TpEASKfy-uY0m1ta"
+          title="YouTube video player" frameborder="0"
+          style="border: 1px solid rgb(255, 255, 255); border-radius: 10px; box-shadow: 2px 2px 2px 4px rgb(46, 46, 46);"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+        </iframe>
+      </div>
+      <div class="col">
+        <iframe width="420" height="250" src="https://www.youtube.com/embed/JXhv8DBw5J4?si=rcZqvoebVHPy3ghh"
+          title="YouTube video player" frameborder="0"
+          style="border: 1px solid rgb(255, 255, 255); border-radius: 10px; box-shadow: 2px 2px 2px 4px rgb(46, 46, 46);"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+        </iframe>
+      </div>
+    </div>
+
+    <div class="row mt-5 justify-content-center">
+      <div class="col p-4" style="margin-left: 455px;">
+        <iframe width="420" height="250" src="https://www.youtube.com/embed/LodsnXv3S9U?si=jcsW9ISCZTQmgZAT"
+          title="YouTube video player" frameborder="0"
+          style="border: 1px solid rgb(255, 255, 255); border-radius: 10px; box-shadow: 2px 2px 2px 4px rgb(46, 46, 46);"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+        </iframe>
+      </div>
+      <div class="col p-4" style="margin-right: 470px;">
+        <iframe width="420" height="250" src="https://www.youtube.com/embed/zHYcM9mQiac?si=yIddhoJC_q14fdCx"
+          title="YouTube video player" frameborder="0"
+          style="border: 1px solid rgb(255, 255, 255); border-radius: 10px; box-shadow: 2px 2px 2px 4px rgb(46, 46, 46);"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+        </iframe>
+      </div>
+    </div>
+
+    <button class="btn btn-outline-warning p-3 mb-5"
+      style=" width: 250px; border-radius: 25px; font-size: 16px; font-weight: bold; margin-left: 795px;"
+      type="submit"><i class="fa-solid fa-video"></i> MORE VIDEOS</button>
+
+    <script>
+      function zoomIn(iframe) {
+        iframe.style.transform = "scale(1.0)";
+        iframe.style.transition = "transform 0.1s";
+      }
+
+      function zoomOut(iframe) {
+        iframe.style.transform = "scale(1)";
+        iframe.style.transition = "transform 0.2s";
+      }
+    </script>
+  </section>
+
+  <section style="background-color: rgb(30, 30, 30); width: 100%; height: 200px;">
+    <div class="row p-2">
+      <h4 class="text-center text-warning mt-3">AS FEATURED ON</h4>
+      <div class="col"></div>
+      <div class="col mt-5 ms-5">
+        <a href="https://vimeo.com">
+          <img src="./img/icon-vimeo-new.png" alt="" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+        </a>
+      </div>
+      <div class="col mt-5">
+        <a href="">
+          <img src="./img/icon-outside.png" alt="" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+        </a>
+      </div>
+      <div class="col mt-5">
+        <a href="https://vimeo.com">
+          <img src="./img/icon-bbc-white.png" alt="" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+        </a>
+      </div>
+      <div class="col mt-5">
+        <a href="https://vimeo.com">
+          <img src="./img/icon-cnn.png" alt="" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+        </a>
+      </div>
+      <div class="col mt-5">
+        <a href="https://vimeo.com">
+          <img src="./img/icon-natgeo-white.png" alt="" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+        </a>
+      </div>
+      <div class="col"></div>
+    </div>
+  </section>
+
+  <script>
+    function zoomIn(image) {
+      image.style.transform = "scale(1.2)";
+      image.style.transition = "transform 0.2s";
+    }
+
+    function zoomOut(image) {
+      image.style.transform = "scale(1)";
+      image.style.transition = "transform 0.2s";
+    }
+  </script>
+  <section
+    style="background-color: rgb(30, 30, 30);">
+    <h3
+      style="color: rgb(104, 104, 104); font-size: 120px; position: absolute;font-family: 'Black Ops One', sans-serif; text-align: center; padding-top: 35px; margin-left: 250px;">
+      MORE ON FILMAKING</h3>
+
+    <div class="card-deck ms-5" style="display:flex; justify-content: space-evenly; padding: 135px;">
+      <div class="card me-5"
+        style="width: 340px; height: 500px; background-color: rgb(46, 46, 46); border: 2px ridge rgb(113, 113, 113); box-shadow: 2px 2px 2px black;"
+        onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+        <img class="card-img-top" src="https://th.bing.com/th/id/OIP.p5fuY87wPjLJFSqloz0YWwHaEK?pid=ImgDet&rs=1" width="100%"
+          height="300px" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title fs-4"
+            style="font-weight: bold; font-family: 'Black Ops One', sans-serif; color: white; text-shadow: 2px 3px rgb(26, 26, 26);">
+            PHOTOGRAPHY
+          </h5>
+          <p class="card-text fs-5 text-light" style="font-weight: bold;">Top 10 Images From Paris.</p>
+          <p class="card-text text-light"><small class="text">A Completed Tour Guide</small></p>
+          <p class="card-text text-light"><small class="text">Updated On October 15, 2023</small></p>
+        </div>
+      </div>
+      <div class="card me-5"
+        style="width: 340px; height: 500px; background-color: rgb(46, 46, 46); border: 2px ridge rgb(113, 113, 113); box-shadow: 2px 2px 2px black;"
+        onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+        <img class="card-img-top" src="https://images.alphacoders.com/108/1087214.jpg" width="100%"
+          height="300px" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title fs-4"
+            style="font-weight: bold; font-family: 'Black Ops One', sans-serif; color: white; text-shadow: 2px 3px rgb(123, 86, 0);">
+            PHOTOGRAPHY
+          </h5>
+          <p class="card-text fs-5 text-warning" style="font-weight: bold;">Top 10 Images From Dubai.</p>
+          <p class="card-text text-light"><small class="text">A Completed Tour Guide</small></p>
+          <p class="card-text text-light"><small class="text">Updated On October 15, 2023</small></p>
+        </div>
+      </div>
+      <div class="card me-5"
+        style="width: 340px; height: 500px; background-color: rgb(46, 46, 46); border: 2px ridge rgb(113, 113, 113); box-shadow: 2px 2px 2px black;"
+        onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+        <img class="card-img-top" src="https://www.hdnicewallpapers.com/Walls/Big/Countries%20and%20City/Berlin_Cathedral_in_Berlin_Germany_Travel_2018_Wallpaper.jpg" width="100%"
+          height="300px" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title fs-4"
+            style="font-weight: bold; font-family: 'Black Ops One', sans-serif; color: white; text-shadow: 2px 3px rgb(0, 88, 120);">
+            PHOTOGRAPHY
+          </h5>
+          <p class="card-text fs-5 text-info" style="font-weight: bold;">Top 10 Images From Germany.</p>
+          <p class="card-text text-light"><small class="text">A Completed Tour Guide</small></p>
+          <p class="card-text text-light"><small class="text">Updated On October 15, 2023</small></p>
+        </div>
+      </div>
+      <div class="card me-5"
+        style="width: 340px; height: 500px;background-color: rgb(46, 46, 46); border: 2px ridge rgb(113, 113, 113); box-shadow: 2px 2px 2px black;"
+        onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+        <img class="card-img-top" src="https://wallpapers-all.com/uploads/posts/2016-11/4_thailand.jpg" width="100%"
+          height="300px" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title fs-4"
+            style="font-weight: bold; font-family: 'Black Ops One', sans-serif; color: white; text-shadow: 2px 3px rgb(99, 99, 99);">
+            PHOTOGRAPHY
+          </h5>
+          <p class="card-text fs-5 text-secondary" style="font-weight: bold;">Top 10 Images From Thailand.</p>
+          <p class="card-text text-light"><small class="text">A Completed Tour Guide</small></p>
+          <p class="card-text text-light"><small class="text">Updated On October 15, 2023</small></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-deck ms-5" style="display:flex; padding-left: 300px;">
+      <div class="card me-5"
+        style="width: 340px; height: 500px; background-color: rgb(46, 46, 46); border: 2px ridge rgb(113, 113, 113); box-shadow: 2px 2px 2px black;"
+        onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+        <img class="card-img-top" src="https://wallpapercave.com/wp/wp2783293.jpg" width="100%"
+          height="300px" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title fs-4"
+            style="font-weight: bold; font-family: 'Black Ops One', sans-serif; color: white; text-shadow: 2px 3px rgb(0, 91, 29);">
+            PHOTOGRAPHY
+          </h5>
+          <p class="card-text fs-5 text-success" style="font-weight: bold;">Top 10 Images From Kerala.</p>
+          <p class="card-text text-light"><small class="text">A Completed Tour Guide</small></p>
+          <p class="card-text text-light"><small class="text">Updated On October 15, 2023</small></p>
+        </div>
+      </div>
+      <div class="card me-5"
+        style="width: 340px; height: 500px; background-color: rgb(46, 46, 46); border: 2px ridge rgb(113, 113, 113); box-shadow: 2px 2px 2px black;"
+        onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+        <img class="card-img-top" src="https://wallpaperaccess.com/full/1547044.jpg" width="100%"
+          height="300px" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title fs-4"
+            style="font-weight: bold; font-family: 'Black Ops One', sans-serif; color: white; text-shadow: 2px 3px rgb(0, 42, 133);">
+            PHOTOGRAPHY
+          </h5>
+          <p class="card-text fs-5 text-primary" style="font-weight: bold;">Top 10 Images From Kashmir.</p>
+          <p class="card-text text-light"><small class="text">A Completed Tour Guide</small></p>
+          <p class="card-text text-light"><small class="text">Updated On October 15, 2023</small></p>
+        </div>
+      </div>
+      <div class="card me-5"
+        style="width: 340px; height: 500px; background-color: rgb(46, 46, 46); border: 2px ridge rgb(113, 113, 113); box-shadow: 2px 2px 2px black;"
+        onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+        <img class="card-img-top" src="https://images7.alphacoders.com/713/thumb-1920-713164.jpg" width="100%"
+          height="300px" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title fs-4"
+            style="font-weight: bold; font-family: 'Black Ops One', sans-serif; color: white; text-shadow: 2px 3px rgb(156, 0, 0);">
+            PHOTOGRAPHY
+          </h5>
+          <p class="card-text fs-5 text-danger" style="font-weight: bold;">Top 10 Images From Delhi.</p>
+          <p class="card-text text-light"><small class="text">A Completed Tour Guide</small></p>
+          <p class="card-text text-light"><small class="text">Updated On October 15, 2023</small></p>
+        </div>
+      </div>
+    </div>
+
+    <button class="btn btn-outline-warning p-3 mb-5 mt-5"
+      style=" width: 250px; border-radius: 25px; font-size: 16px; font-weight: bold; margin-left: 795px;;"
+      type="submit">OLDER POSTS <i class="fa-solid fa-arrow-right"></i></button>
+
+    <script>
+      function zoomIn(card) {
+        card.style.transform = "scale(1.1)";
+        card.style.transition = "transform 0.2s";
+      }
+
+      function zoomOut(card) {
+        card.style.transform = "scale(1)";
+        card.style.transition = "transform 0.2s";
+      }
+    </script>
+  </section>
+
+  <section>
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://www.hdwallpapers.in/download/man_is_standing_alone_on_rock_in_white_mountains_background_4k_hd_alone-HD.jpg"
+            style="height: 1000px;" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="mb-5"
+              style="font-size: 40px; justify-content: center; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bolder;">
+              Join our community of over 4,000 readers
+              you'll get travel news, updates, and captivating travel stories from around the world.</h5>
+            <p class="mb-5"
+              style="font-size: 20px; justify-content: center; font-family: monospace; font-weight: bold;">JOIN SOLO
+              TRAVELLER BLOG NEWSLETTER TODAY</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://i.pinimg.com/originals/b5/2d/d8/b52dd861ed15833878b293d24992d52e.jpg"
+            style="height: 1000px;" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="mb-5 text-dark"
+              style="font-size: 40px; justify-content: center; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bolder;">
+              “When you travel, remember that a foreign country is not designed to make you comfortable. It is designed
+              to make its own people comfortable.”</h5>
+            <p class="mb-5 text text-dark"
+              style="font-size: 20px; justify-content: center; font-family: monospace; font-weight: bold;">JOIN SOLO
+              TRAVELLER BLOG NEWSLETTER TODAY</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://wallpapercave.com/wp/wp2693839.jpg" style="height: 1000px;" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="mb-5"
+              style="font-size: 40px; justify-content: center; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bolder;">
+              “Our happiest moments as tourists always seem to come when we stumble upon one thing while in pursuit of
+              something else.”</h5>
+            <p class="mb-5"
+              style="font-size: 20px; justify-content: center; font-family: monospace; font-weight: bold;">JOIN SOLO
+              TRAVELLER BLOG NEWSLETTER TODAY</p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-white" style="background-color: rgb(30, 30, 30);">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Social media -->
+        <section class="mb-4" style="margin-left: 110px;">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+              class="fab fa-facebook-f"></i></a>
+
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+          <!-- Google -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+          <!-- Linkedin -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+              class="fab fa-linkedin-in"></i></a>
+
+          <!-- Github -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Form -->
+        <section class="">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Sign up for our newsletter</strong>
+                </p>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-outline form-white mb-4">
+                  <input type="email" id="form5Example21" class="form-control" />
+                  <label class="form-label" for="form5Example21">Email address</label>
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Subscribe
+                </button>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+        <!-- Section: Form -->
+
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">POPULAR ITINERARIES</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white" style="text-decoration: none;">3 Months Itinerary in Europe</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white" style="text-decoration: none;">2 Weeks Itinerary for Albania</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white" style="text-decoration: none;">2 Weeks Greece Itinerary</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white" style="text-decoration: none;">7 Days Iceland's Ring Road Itinerary</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white" style="text-decoration: none;">6 Months South America Itinerary</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white" style="text-decoration: none;">One Month in Italy</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">TOP DESTINATIONS</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white" style="text-decoration: none;">Albania Travel Guide</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white" style="text-decoration: none;">Italy Travel Guide </a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white" style="text-decoration: none;">Greece Travel Guide </a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white" style="text-decoration: none;">Iceland Travel Guide </a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white" style="text-decoration: none;">Thailand Travel Guide </a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">ABOUT</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white" style="text-decoration: none;">About Me</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white" style="text-decoration: none;">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white" style="text-decoration: none;">Terms</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white" style="text-decoration: none;">Web Stories</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white" style="text-decoration: none;">Best Travel Gear</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white" style="text-decoration: none;">Lightroom Presets </a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white" style="text-decoration: none;">What's in My Camera Backpack? </a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">STAY CONNECTED</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white" style="text-decoration: none;">Sign Up For My Newsletter</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white" style="text-decoration: none;">Work With Me</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white" style="text-decoration: none;">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgb(30, 30, 30);">
+        © 2020 Copyright:
+        <a class="text-white" href="#">SoloTraveller.com</a>
+      </div>
+      <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+</body>
+
+</html>
